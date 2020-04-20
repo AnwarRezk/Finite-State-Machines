@@ -34,7 +34,7 @@ if __name__ == "__main__":
     S = 'S1'
     F = ['S0','S2']
 
-    M = DFA(K,A,TF,S,F)
+    M = DFA(K,A,TF,S,F) #DFA
     try:
         print("Enter a String : ",end='')
         tape = input()
