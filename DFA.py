@@ -36,6 +36,7 @@ if __name__ == "__main__":
 
     M = DFA(K,A,TF,S,F)
     try:
+        print("Enter a String : ",end='')
         inp_str = input()
         for i in inp_str:
             if i not in A:
